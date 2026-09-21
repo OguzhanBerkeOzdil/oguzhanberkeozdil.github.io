@@ -51,6 +51,16 @@ export function About() {
               <strong>OguzhanBerkeOzdil</strong>
               <Arrow diagonal />
             </a>
+            <a href={site.contact.instagram} target="_blank" rel="noreferrer">
+              <span>{copy.contact.instagramLabel}</span>
+              <strong>@berkeozdil</strong>
+              <Arrow diagonal />
+            </a>
+            <a href={site.contact.facebook} target="_blank" rel="noreferrer">
+              <span>{copy.contact.facebookLabel}</span>
+              <strong>oguzhanberke.ozdil</strong>
+              <Arrow diagonal />
+            </a>
           </address>
           <p className="agh-email-note">{copy.contact.aghEmailNotice}</p>
         </Reveal>

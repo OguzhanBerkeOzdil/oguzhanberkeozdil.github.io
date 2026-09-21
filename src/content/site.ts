@@ -59,6 +59,8 @@ export const site = {
     email: 'ozdiloguzhanberke@gmail.com',
     linkedIn: 'https://www.linkedin.com/in/oguzhanberkeozdil/',
     github: 'https://github.com/OguzhanBerkeOzdil',
+    instagram: 'https://www.instagram.com/berkeozdil/',
+    facebook: 'https://www.facebook.com/oguzhanberke.ozdil?locale=pl_PL',
   },
 } as const
 
@@ -345,8 +347,10 @@ export const copy = {
     emailLabel: 'Email',
     linkedInLabel: 'LinkedIn',
     githubLabel: 'GitHub',
+    instagramLabel: 'Instagram',
+    facebookLabel: 'Facebook',
     aghEmailNotice:
-      'AGH student email will be added after the account is activated.',
+      'I will add my AGH email here soon. I am waiting for the university to activate my account.',
   },
   footer: {
     affiliation: 'PhD research at AGH University of Krakow',
