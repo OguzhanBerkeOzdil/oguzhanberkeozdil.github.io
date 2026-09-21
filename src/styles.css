@@ -967,6 +967,29 @@ a:hover .arrow {
   font-size: 1.05rem;
 }
 
+.about-lifestyle {
+  float: right;
+  width: min(43%, 310px);
+  margin: 4px 0 26px 34px;
+}
+
+.about-lifestyle img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+}
+
+.about-lifestyle figcaption {
+  margin-top: 10px;
+  color: var(--blue-dark);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
 .contact-panel {
   padding: clamp(30px, 4vw, 52px);
   border-top: 4px solid var(--blue);
@@ -1327,6 +1350,12 @@ a:hover .arrow {
 
   .contact-panel {
     padding-inline: 24px;
+  }
+
+  .about-lifestyle {
+    float: none;
+    width: min(100%, 480px);
+    margin: 0 0 30px;
   }
 
   .contact-links a {

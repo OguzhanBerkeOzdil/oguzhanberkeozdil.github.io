@@ -311,6 +311,11 @@ export const copy = {
   about: {
     label: 'About and contact',
     title: 'About me',
+    image: {
+      src: 'images/about-cycling-maczuga-herkulesa.jpeg',
+      alt: 'Oğuzhan Berke Özdil standing beside his bicycle in front of Maczuga Herkulesa in Ojców National Park',
+      caption: 'Cycling past Maczuga Herkulesa in Ojców National Park',
+    },
     body: [
       'I am a Turkish researcher living in Krakow. Alongside my PhD, I work as a ServiceNow Developer at EY GDS Poland and hold the ServiceNow Certified System Administrator credential. My software background includes Python automation, REST APIs, React and TypeScript, and Java with Spring.',
       'Research gives that software work a physical setting. I enjoy building the experiment, seeing how the signal was produced, and checking whether the analysis still makes sense outside one convenient split of the data.',

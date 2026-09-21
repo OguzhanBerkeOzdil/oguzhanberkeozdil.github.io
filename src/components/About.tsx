@@ -1,6 +1,7 @@
 import { copy, site } from '../content/site'
 import { Arrow } from './Arrow'
 import { Reveal } from './Reveal'
+import { assetUrl } from '../lib/assets'
 
 export function About() {
   return (
@@ -9,6 +10,14 @@ export function About() {
         <Reveal className="about-personal">
           <p className="section-label">{copy.about.label}</p>
           <h2 id="about-title">{copy.about.title}</h2>
+          <figure className="about-lifestyle">
+            <img
+              src={assetUrl(copy.about.image.src)}
+              alt={copy.about.image.alt}
+              loading="lazy"
+            />
+            <figcaption>{copy.about.image.caption}</figcaption>
+          </figure>
           {copy.about.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </Reveal>
         <Reveal className="contact-panel">
