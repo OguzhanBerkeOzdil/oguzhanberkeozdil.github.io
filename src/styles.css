@@ -872,8 +872,22 @@ a:hover .arrow {
 }
 
 .students-section {
-  background: var(--blue);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background-color: #0d2a41;
+  background-image: url('/images/students-vibroacoustic-background.jpg');
+  background-position: center;
+  background-size: cover;
   color: var(--surface);
+}
+
+.students-section::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: rgba(5, 25, 40, 0.3);
+  content: '';
 }
 
 .students-layout {
@@ -948,6 +962,30 @@ a:hover .arrow {
   gap: 10px;
   color: var(--surface);
   font-weight: 750;
+}
+
+.students-cta {
+  min-width: 178px;
+  min-height: 58px;
+  padding-inline: 24px;
+  color: var(--ink);
+  background: var(--surface);
+  border-color: var(--surface);
+  box-shadow: 0 14px 34px rgba(3, 18, 30, 0.28);
+  font-size: 1.02rem;
+  transition: transform 150ms ease, background-color 150ms ease, color 150ms ease, box-shadow 150ms ease;
+}
+
+.students-cta:hover {
+  color: var(--ink);
+  background: #dfeef8;
+  border-color: #dfeef8;
+  box-shadow: 0 18px 42px rgba(3, 18, 30, 0.36);
+  transform: translateY(-2px);
+}
+
+.students-cta:active {
+  transform: scale(0.96);
 }
 
 .about-section {

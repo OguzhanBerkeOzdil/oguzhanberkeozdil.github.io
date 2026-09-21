@@ -32,7 +32,7 @@ export function Students() {
               {copy.students.groupLink} <Arrow diagonal />
             </a>
           </div>
-          <a className="button button-light" href={`mailto:${site.contact.email}?subject=${subject}`}>
+          <a className="button button-light students-cta" href={`mailto:${site.contact.email}?subject=${subject}`}>
             {copy.students.contactAction} <Arrow />
           </a>
         </Reveal>

@@ -307,7 +307,7 @@ export const copy = {
       'I can support the day-to-day research. Formal supervision, topic approval and availability are handled through',
     supervisionSuffix: 'and AGH.',
     groupLink: 'View the research group student opportunities',
-    contactAction: 'Write about a thesis idea',
+    contactAction: 'Write me',
   },
   about: {
     label: 'About and contact',
