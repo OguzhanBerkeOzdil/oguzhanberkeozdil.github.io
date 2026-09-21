@@ -196,7 +196,7 @@ export const education = [
     year: '2026-present',
     degree: 'PhD in Information and Communication Technology',
     detail:
-      'Faculty of Computer Science, AGH University of Krakow',
+      'Faculty of Computer Science (Wydział Informatyki), AGH University of Krakow',
   },
 ] as const
 
