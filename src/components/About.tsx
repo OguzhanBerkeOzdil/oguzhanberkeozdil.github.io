@@ -3,6 +3,15 @@ import { Arrow } from './Arrow'
 import { Reveal } from './Reveal'
 import { assetUrl } from '../lib/assets'
 
+function highlightText(text: string, highlights: readonly string[]) {
+  const matches = [...highlights].sort((a, b) => b.length - a.length)
+  const expression = new RegExp(`(${matches.map((item) => item.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'g')
+
+  return text.split(expression).map((part, index) =>
+    highlights.includes(part) ? <strong key={`${part}-${index}`}>{part}</strong> : part,
+  )
+}
+
 export function About() {
   return (
     <section className="about-section section-space" id="about" aria-labelledby="about-title">
@@ -18,7 +27,9 @@ export function About() {
             />
             <figcaption>{copy.about.image.caption}</figcaption>
           </figure>
-          {copy.about.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          {copy.about.body.map((paragraph) => (
+            <p key={paragraph}>{highlightText(paragraph, copy.about.highlights)}</p>
+          ))}
         </Reveal>
         <Reveal className="contact-panel">
           <p className="micro-label">{copy.contact.label}</p>

@@ -200,7 +200,6 @@ export const publications: Publication[] = [
       'Comparative Vibroacoustic Analysis of Spinal Needle Insertion Actions: Quincke vs. Sprotte',
     contribution:
       'First and corresponding author. I led the experiments, dataset, machine learning, validation and manuscript.',
-    status: 'Accepted conference contribution',
   },
   {
     year: '2025',
@@ -316,6 +315,14 @@ export const copy = {
       alt: 'Oğuzhan Berke Özdil standing beside his bicycle in front of Maczuga Herkulesa in Ojców National Park',
       caption: 'Cycling past Maczuga Herkulesa in Ojców National Park',
     },
+    highlights: [
+      'Lord of the Rings',
+      'PC games',
+      'Strength training and fitness',
+      '10 years',
+      'cycling trips, hiking, climbing and canoeing',
+      'salsa, bachata, tango and modern dance',
+    ],
     body: [
       'I am a Turkish researcher living in Krakow. Alongside my PhD, I work as a ServiceNow Developer at EY GDS Poland and hold professional ServiceNow certifications. My software background includes Python, automation systems, REST APIs, React, TypeScript, Java and Spring. I worked more extensively with C# before moving to Java for work. My research also uses signal processing, machine learning and deep learning for experimental data.',
       'Research gives that software work a physical setting. I enjoy building the experiment, seeing how the signal was produced, and checking whether the analysis still makes sense outside one convenient split of the data.',

@@ -967,6 +967,11 @@ a:hover .arrow {
   font-size: 1.05rem;
 }
 
+.about-personal strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
 .about-lifestyle {
   float: right;
   width: min(43%, 310px);
