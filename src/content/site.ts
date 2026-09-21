@@ -60,6 +60,7 @@ export const site = {
     linkedIn: 'https://www.linkedin.com/in/oguzhanberkeozdil/',
     github: 'https://github.com/OguzhanBerkeOzdil',
     googleScholar: 'https://scholar.google.com/citations?user=lCliqbYAAAAJ&hl=en',
+    orcid: 'https://orcid.org/0009-0004-6967-0587',
     instagram: 'https://www.instagram.com/berkeozdil/',
     facebook: 'https://www.facebook.com/oguzhanberke.ozdil?locale=pl_PL',
   },
@@ -355,6 +356,7 @@ export const copy = {
     linkedInLabel: 'LinkedIn',
     githubLabel: 'GitHub',
     googleScholarLabel: 'Google Scholar',
+    orcidLabel: 'ORCID',
     instagramLabel: 'Instagram',
     facebookLabel: 'Facebook',
     aghEmailNotice:

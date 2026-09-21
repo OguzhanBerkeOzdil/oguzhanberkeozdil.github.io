@@ -56,6 +56,11 @@ export function About() {
               <strong>Oğuzhan Berke Özdil</strong>
               <Arrow diagonal />
             </a>
+            <a href={site.contact.orcid} target="_blank" rel="noreferrer">
+              <span>{copy.contact.orcidLabel}</span>
+              <strong>0009-0004-6967-0587</strong>
+              <Arrow diagonal />
+            </a>
             <a href={site.contact.instagram} target="_blank" rel="noreferrer">
               <span>{copy.contact.instagramLabel}</span>
               <strong>@berkeozdil</strong>
