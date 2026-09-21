@@ -59,6 +59,7 @@ export const site = {
     email: 'ozdiloguzhanberke@gmail.com',
     linkedIn: 'https://www.linkedin.com/in/oguzhanberkeozdil/',
     github: 'https://github.com/OguzhanBerkeOzdil',
+    googleScholar: 'https://scholar.google.com/citations?user=lCliqbYAAAAJ&hl=en',
     instagram: 'https://www.instagram.com/berkeozdil/',
     facebook: 'https://www.facebook.com/oguzhanberke.ozdil?locale=pl_PL',
   },
@@ -353,6 +354,7 @@ export const copy = {
     emailLabel: 'Email',
     linkedInLabel: 'LinkedIn',
     githubLabel: 'GitHub',
+    googleScholarLabel: 'Google Scholar',
     instagramLabel: 'Instagram',
     facebookLabel: 'Facebook',
     aghEmailNotice:

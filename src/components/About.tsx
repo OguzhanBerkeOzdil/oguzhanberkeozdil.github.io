@@ -51,6 +51,11 @@ export function About() {
               <strong>OguzhanBerkeOzdil</strong>
               <Arrow diagonal />
             </a>
+            <a href={site.contact.googleScholar} target="_blank" rel="noreferrer">
+              <span>{copy.contact.googleScholarLabel}</span>
+              <strong>Oğuzhan Berke Özdil</strong>
+              <Arrow diagonal />
+            </a>
             <a href={site.contact.instagram} target="_blank" rel="noreferrer">
               <span>{copy.contact.instagramLabel}</span>
               <strong>@berkeozdil</strong>
