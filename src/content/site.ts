@@ -192,6 +192,12 @@ export const education = [
     detail:
       'Artificial Intelligence and Data Analysis, AGH University of Krakow, final average 4.55/5',
   },
+  {
+    year: '2026-present',
+    degree: 'PhD in Information and Communication Technology',
+    detail:
+      'Faculty of Computer Science, AGH University of Krakow',
+  },
 ] as const
 
 export const publications: Publication[] = [
