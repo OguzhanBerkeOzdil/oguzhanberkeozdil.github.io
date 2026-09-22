@@ -340,7 +340,7 @@ export const copy = {
     ideasIntroduction:
       'Each idea addresses one part of the research. The exact question, dataset and methods would be agreed before a thesis begins.',
     ideasNote:
-      'These are potential topics, not confirmed openings. Access to data or equipment, formal approval and the final scope must be checked first. Funding and publication are not guaranteed.',
+      'If you have an idea of your own, please tell me. I am happy to discuss it. These are potential topics, not confirmed openings. Data access, equipment and formal approval need to be checked; funding and publication are not guaranteed.',
     supervisionTitle: 'Formal supervision',
     supervisionPrefix:
       'I can support the day-to-day research. Formal supervision, topic approval and availability are handled through',
