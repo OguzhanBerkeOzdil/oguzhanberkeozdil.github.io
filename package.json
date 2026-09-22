@@ -7,7 +7,7 @@
     "dev": "vite",
     "check:copy": "node scripts/check-copy.mjs",
     "check": "npm run check:copy && npm run build",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node scripts/prerender.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
