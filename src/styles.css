@@ -695,7 +695,10 @@ a:hover .arrow {
 }
 
 .path-section {
-  background: var(--ink);
+  background-color: var(--ink);
+  background-image: url('/images/path-editorial-background.png');
+  background-position: center;
+  background-size: cover;
   color: #dce5ec;
 }
 

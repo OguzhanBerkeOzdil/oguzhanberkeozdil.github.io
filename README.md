@@ -18,6 +18,7 @@ Use `npm run check` before review. It validates the copy, runs TypeScript and cr
 - The professional portrait was resized from the user's CV photo without altering the person, clothing or background.
 - VIBRONAV and UltraClear images are optimized local copies from the user's public project repository.
 - The thesis-directions image is a conceptual editorial graphic generated for this site. It does not represent measured data.
+- The academic-path background is a decorative editorial texture, not experimental evidence.
 - Potential BSc and MSc thesis directions are maintained in `src/content/site.ts`. They are not confirmed openings.
 - Private PhD documents, raw datasets, unpublished manuscripts and administrative files are not included.
 
