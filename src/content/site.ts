@@ -282,6 +282,7 @@ export const copy = {
       { label: 'Path', href: '#path' },
       { label: 'Publications', href: '#publications' },
       { label: 'Students', href: '#students' },
+      { label: 'Thesis ideas', href: '#thesis-ideas' },
       { label: 'About', href: '#about' },
     ],
   },

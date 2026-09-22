@@ -1208,7 +1208,7 @@ a:hover .arrow {
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 820px) {
   :root {
     --page: calc(100% - 36px);
     --header-height: 68px;
