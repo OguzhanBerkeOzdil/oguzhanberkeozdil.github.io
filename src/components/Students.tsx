@@ -1,9 +1,7 @@
 import { copy, site } from '../content/site'
-import { Arrow } from './Arrow'
 import { Reveal } from './Reveal'
 
 export function Students() {
-  const subject = encodeURIComponent('Thesis or research interest')
   return (
     <section className="students-section section-space" id="students" aria-labelledby="students-title">
       <div className="page-shell students-layout">
@@ -14,11 +12,6 @@ export function Students() {
         <Reveal className="students-body">
           <p className="students-lead">{copy.students.introduction}</p>
           <p>{copy.students.opportunity}</p>
-          <ul className="students-topics" aria-label="Possible areas of work">
-            {copy.students.topics.map((topic) => (
-              <li key={topic}>{topic}</li>
-            ))}
-          </ul>
           <div className="students-formal-note">
             <h3>{copy.students.supervisionTitle}</h3>
             <p>
@@ -29,12 +22,9 @@ export function Students() {
               {copy.students.supervisionSuffix}
             </p>
             <a href={site.projectLinks.students} target="_blank" rel="noreferrer">
-              {copy.students.groupLink} <Arrow diagonal />
+              {copy.students.groupLink}
             </a>
           </div>
-          <a className="button button-light students-cta" href={`mailto:${site.contact.email}?subject=${subject}`}>
-            {copy.students.contactAction} <Arrow />
-          </a>
         </Reveal>
       </div>
     </section>

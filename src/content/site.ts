@@ -35,6 +35,12 @@ export type Publication = {
   url?: string
 }
 
+export type ThesisIdea = {
+  title: string
+  level: string
+  description: string
+}
+
 export const site = {
   name: 'Oğuzhan Berke Özdil',
   location: 'Krakow, Poland',
@@ -240,6 +246,33 @@ export const publications: Publication[] = [
   },
 ]
 
+export const thesisIdeas: ThesisIdea[] = [
+  {
+    title: 'Lightweight models for vibroacoustic tissue classification',
+    level: 'BSc or MSc',
+    description:
+      'Compare acoustic features and compact machine-learning models for tissue classification. The focus is on careful data splits, reproducible results and practical inference costs.',
+  },
+  {
+    title: 'Detecting tissue-layer transitions from needle signals',
+    level: 'MSc',
+    description:
+      'Investigate when a needle crosses a boundary between layers in a controlled phantom. Combine signal analysis with a clearly defined timing or position reference.',
+  },
+  {
+    title: 'Testing models across changing experimental conditions',
+    level: 'MSc',
+    description:
+      'Measure what happens when a model encounters a different needle, insertion speed or recording session. Start with a small, controlled comparison and held-out conditions.',
+  },
+  {
+    title: 'Understanding what a vibroacoustic model uses',
+    level: 'MSc',
+    description:
+      'Examine which parts of a signal influence a prediction, then test whether those explanations are stable. The goal is to understand model behaviour, not claim biological causality.',
+  },
+]
+
 export const copy = {
   header: {
     descriptor: 'Research and engineering',
@@ -300,16 +333,14 @@ export const copy = {
     label: 'Work with students',
     title: 'Research and thesis collaboration',
     introduction:
-      'BSc and MSc students interested in experiments, signal processing or machine learning are welcome to share an idea. A finished proposal is not required, but curiosity and consistent work are.',
+      'BSc and MSc students interested in experiments, signal processing or machine learning are welcome to get in touch. You do not need a finished proposal.',
     opportunity:
-      'Possible work can include acquisition, annotation, signal analysis, reproducible evaluation or research writing when a suitable project is available. I prefer direct, relaxed collaboration where questions are welcome. Funding, a thesis place and publication are not guaranteed.',
-    topics: [
-      'Experimental acquisition',
-      'Vibroacoustic signals',
-      'Signal processing',
-      'Machine learning',
-      'Robust validation',
-    ],
+      'The ideas below are starting points, not fixed assignments. We can narrow the scope to your background and the data or equipment available. I prefer direct, relaxed collaboration where questions are welcome.',
+    ideasTitle: 'Possible thesis directions',
+    ideasIntroduction:
+      'Each idea addresses one part of the research. The exact question, dataset and methods would be agreed before a thesis begins.',
+    ideasNote:
+      'These are potential topics, not confirmed openings. Access to data or equipment, formal approval and the final scope must be checked first. Funding and publication are not guaranteed.',
     supervisionTitle: 'Formal supervision',
     supervisionPrefix:
       'I can support the day-to-day research. Formal supervision, topic approval and availability are handled through',
