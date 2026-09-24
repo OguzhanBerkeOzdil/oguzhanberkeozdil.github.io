@@ -62,7 +62,8 @@ export const site = {
       'https://healthtech-innovation.agh.edu.pl/msc-eng-projects-opportunities/',
   },
   contact: {
-    email: 'ozdiloguzhanberke@gmail.com',
+    email: 'ozdil@agh.edu.pl',
+    personalEmail: 'ozdiloguzhanberke@gmail.com',
     linkedIn: 'https://www.linkedin.com/in/oguzhanberkeozdil/',
     github: 'https://github.com/OguzhanBerkeOzdil',
     googleScholar: 'https://scholar.google.com/citations?user=lCliqbYAAAAJ&hl=en',
@@ -383,16 +384,15 @@ export const copy = {
     label: 'Contact',
     title: 'Get in touch',
     body:
-      'For research, a thesis idea or a technical conversation, email is the best place to start.',
-    emailLabel: 'Email',
+      'For research or a thesis idea, my AGH email is the best place to start.',
+    emailLabel: 'AGH email',
+    personalEmailLabel: 'Personal email',
     linkedInLabel: 'LinkedIn',
     githubLabel: 'GitHub',
     googleScholarLabel: 'Google Scholar',
     orcidLabel: 'ORCID',
     instagramLabel: 'Instagram',
     facebookLabel: 'Facebook',
-    aghEmailNotice:
-      'I will add my AGH email here soon. I am waiting for the university to activate my account.',
   },
   footer: {
     affiliation: 'PhD research at AGH University of Krakow',

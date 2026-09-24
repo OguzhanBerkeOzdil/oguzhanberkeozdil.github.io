@@ -1090,7 +1090,7 @@ a:hover .arrow {
   font-size: clamp(2.1rem, 3.2vw, 3.2rem);
 }
 
-.contact-panel > p:not(.micro-label):not(.agh-email-note) {
+.contact-panel > p:not(.micro-label) {
   color: var(--muted);
 }
 
@@ -1126,12 +1126,6 @@ a:hover .arrow {
 .contact-links strong {
   overflow-wrap: anywhere;
   transition: color 160ms ease;
-}
-
-.agh-email-note {
-  margin: 18px 0 0;
-  color: var(--agh-green);
-  font-size: 0.88rem;
 }
 
 .site-footer {

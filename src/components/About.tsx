@@ -41,6 +41,11 @@ export function About() {
               <strong>{site.contact.email}</strong>
               <Arrow diagonal />
             </a>
+            <a href={`mailto:${site.contact.personalEmail}`}>
+              <span>{copy.contact.personalEmailLabel}</span>
+              <strong>{site.contact.personalEmail}</strong>
+              <Arrow diagonal />
+            </a>
             <a href={site.contact.linkedIn} target="_blank" rel="noreferrer">
               <span>{copy.contact.linkedInLabel}</span>
               <strong>oguzhanberkeozdil</strong>
@@ -72,7 +77,6 @@ export function About() {
               <Arrow diagonal />
             </a>
           </address>
-          <p className="agh-email-note">{copy.contact.aghEmailNotice}</p>
         </Reveal>
       </div>
     </section>
